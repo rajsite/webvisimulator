@@ -1,0 +1,23 @@
+{
+  "name": "webvisimulator",
+  "version": "1.0.0",
+  "description": "A library that simulates JavaScriptInvoke behaviors of WebVIs",
+  "main": "source/webvisimulator.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ./source/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajsite/webvisimulator.git"
+  },
+  "author": "Milan Raj (@rajsite)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajsite/webvisimulator/issues"
+  },
+  "homepage": "https://github.com/rajsite/webvisimulator#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}

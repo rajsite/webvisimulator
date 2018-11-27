@@ -1,0 +1,14 @@
+dist: xenial
+sudo: false
+language: node_js
+before_script:
+- npm pack
+deploy:
+  provider: npm
+  skip_cleanup: true
+  email: rajsite@gmail.com
+  api_key:
+    secure: UMDTupzOzeCv2UfltqJGqIZInc0sO21X4goAdGzYu6954wwIxg1Z6h47sWdmi1xiz7rtQ0BO7hjqkYxINwRTREtlJ4849YIfyeK0Pq7oQM6hED6vBmz0f5UJ1K1jt1WoiIePT+nUht2Gd5+mLTIgrE8H8Z1uWh5Vda0uKMbBHiG97U713ntW35+c67wi9wSbVky58Xki8Q+7MF4kF16YNIxAYzU2N0GwNn8T3wrHzCIBfEtvlabtde8JTC8go5Fu8AOj1eTlvl6BE/UJo8Sd2ZjUsw3K1gpN7ru61+hreXou2fxmNDiiub0aFU4E060ThJ2gd7EhyCHx8iZMIKtQ7UNDgGQlubGyoFdO5b7BryDnAzvt3RX0lihd/D/i7Z0Rx4yJJVLobmGUyYUZshJKL7w37poHNZEweL1b6xMIBjxfipx+5HIAJ8IQhMFbqA7bMfux/kFp7HXqQhT30O9GnYV+RN5I/gGnHFF+ichdl0/Fu/Qq6HbdijTvUy7B8qzwe7mWMsD5al/4EyvumaEJhD6toODuj0JIyb2KeyvOfU1EU/8Y7fMX6MYTGnXyL4sCJM4pPVvGdpwg9jZFR1RN7P6lNivHDKgxIzHHX9fmLSQdJN3XFqie8zV6iBfxANr7rPs63HBmHu9L8Pl/mMY8PgeC3Va9xiH7ct53Fo4UO9Y=
+  on:
+    tags: true
+    repo: rajsite/webvisimulator
