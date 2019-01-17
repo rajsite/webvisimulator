@@ -1,6 +1,6 @@
 import {Selector} from 'testcafe';
 
-fixture('Basic synchronous').page('../examples/basic.html');
+fixture('Async promise').page('../examples/async-promise.html');
 
 test('Click increment multiple times', async tc => {
     await tc

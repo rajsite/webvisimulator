@@ -1,6 +1,6 @@
 import {Selector} from 'testcafe';
 
-fixture('Basic synchronous').page('../examples/basic.html');
+fixture('Async callback').page('../examples/async-callback.html');
 
 test('Click increment multiple times', async tc => {
     await tc
