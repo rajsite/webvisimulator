@@ -1,6 +1,6 @@
 # webvisimulator
 
-# Archived
+## Archived
 
 Note: This repo is archived. It is no longer required with Promise-based async JSLI nodes.
 
